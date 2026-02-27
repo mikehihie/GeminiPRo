@@ -11,14 +11,16 @@
 }
 
 :root {
-    --primary-color: #4A90E2;
-    --primary-hover: #357ABD;
-    --dark-color: #1A1A2E;
-    --light-bg: #F4F5F7;
-    --text-color: #333333;
-    --text-muted: #777777;
-    --border-color: #E0E0E0;
+    /* Đổi sang tông Cam/Đỏ phù hợp với đồ ăn */
+    --primary-color: #FF6B6B; 
+    --primary-hover: #FF4757;
+    --dark-color: #2D3436;
+    --light-bg: #FFF5F5;
+    --text-color: #2D3436;
+    --text-muted: #636E72;
+    --border-color: #FEE2E2;
 }
+
 
 body {
     background-color: #FFFFFF;
