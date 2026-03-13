@@ -584,17 +584,14 @@ button {
 }
 
 .banner-discount {
-    /* background-image: url('your-image-url'); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/cavienchien.jpg');
 }
 
 .banner-streetfood {
-    /* background-image: url('your-image-url'); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/nemchuaran.jpg');
 }
 
 .banner-delivery {
-    /* background-image: url('your-image-url'); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/grabfood.jpg');
 }
 
