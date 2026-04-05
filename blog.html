@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Blog | Bân Xiển - Chia Sẻ Đam Mê Ẩm Thực</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <!-- Styles -->
+    
+    <link rel="stylesheet" href="style.css"/>
+    
+</head>
+<body>
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="menuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenu">
+            <span class="material-symbols-outlined">close</span>
+        </button>
+        <div class="mobile-nav-links">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="blog.html" class="active">Blog</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div class="app-wrapper">
+        <header class="header">
+            <div class="header-container">
+                <a href="index.html" class="logo">
+                    <span class="material-symbols-outlined icon-large">kebab_dining</span>
+                    <h2>Bân Xiển</h2>
+                </a>
+                <div class="header-right">
+                    <nav class="navbar">
+                        <a href="index.html">Home</a>
+                        <a href="shop.html">Shop</a>
+                        <a href="blog.html" class="active">Blog</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                    <div class="header-actions">
+                        <button class="icon-btn search-btn">
+                            <span class="material-symbols-outlined">search</span>
+                        </button>
+                        <a href="cart.html" class="icon-btn cart-btn">
+                            <span class="material-symbols-outlined">shopping_cart</span>
+                            <span class="cart-badge">3</span>
+                        </a>
+                        <button class="menu-toggle" id="openMenu">
+                            <span class="material-symbols-outlined">menu_open</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <header class="page-header">
+                <div class="container text-center">
+                    <h1>Tin Tức & Blog</h1>
+                    <p class="mt-2">Khám phá văn hóa ẩm thực đường phố và những câu chuyện đằng sau Bân Xiển.</p>
+                </div>
+            </header>
+
+            <section class="container section-padding">
+                <div class="blog-grid">
+                    <!-- Blog Card 1 -->
+                    <article class="product-card">
+                        <div class="product-image" style="background-image: url('assets/img/banhgaolac.jpg'); height: 240px;"></div>
+                        <div class="product-info">
+                            <span class="text-primary">Recipes</span>
+                            <h2>Bật mí công thức Sốt Thái độc quyền của Bân Xiển</h2>
+                            <p>Sốt Thái chua cay mặn ngọt là linh hồn của món Chân gà rút xương. Trong bài viết này, chúng tôi sẽ chia sẻ những bí quyết nhỏ...</p>
+                            <div class="flex-between">
+                                <div>
+                                    <span class="material-symbols-outlined">person</span>
+                                    <span>Admin</span>
+                                </div>
+                                <a href="#" class="btn btn-outline">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Blog Card 2 -->
+                    <article class="product-card">
+                        <div class="product-image" style="background-image: url('assets/img/bolalot.jpg'); height: 240px;"></div>
+                        <div class="product-info">
+                            <span class="text-primary">Street Food</span>
+                            <h2>Top 5 món xiên que phải thử khi đến Sài Gòn</h2>
+                            <p>Sài Gòn là thiên đường xiên que. Từ những xe đẩy ven đường cho đến các quán ăn hiện đại, đây là 5 món bạn không được bỏ lỡ...</p>
+                            <div class="flex-between">
+                                <div>
+                                    <span class="material-symbols-outlined">person</span>
+                                    <span>Chef Minh</span>
+                                </div>
+                                <a href="#" class="btn btn-outline">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Blog Card 3 -->
+                    <article class="product-card">
+                        <div class="product-image" style="background-image: url('assets/img/cavienchien.jpg'); height: 240px;"></div>
+                        <div class="product-info">
+                            <span class="text-primary">Brand Story</span>
+                            <h2>Hành trình mang "Hương vị thật" từ quê nhà lên phố</h2>
+                            <p>Bân Xiển không chỉ là một cửa hàng, đó là tâm huyết của những người con yêu ẩm thực quê nhà, mong muốn mang đến...</p>
+                            <div class="flex-between">
+                                <div>
+                                    <span class="material-symbols-outlined">person</span>
+                                    <span>Founders</span>
+                                </div>
+                                <a href="#" class="btn btn-outline">Read More</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="pagination text-center mt-2">
+                    <a href="#" class="page-link active">1</a>
+                    <a href="#" class="page-link">2</a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <span class="material-symbols-outlined icon-large">kebab_dining</span>
+                        <h2>Bân Xiển</h2>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

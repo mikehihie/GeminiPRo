@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop | Bân Xiển - Menu Đa Dạng</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
+    <!-- Styles -->
+
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="menuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenu">
+            <span class="material-symbols-outlined">close</span>
+        </button>
+        <div class="mobile-nav-links">
+            <a href="index.html">Home</a>
+            <a href="shop.html" class="active">Shop</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div class="app-wrapper">
+        <header class="header">
+            <div class="header-container">
+                <a href="index.html" class="logo">
+                    <span class="material-symbols-outlined icon-large">kebab_dining</span>
+                    <h2>Bân Xiển</h2>
+                </a>
+                <div class="header-right">
+                    <nav class="navbar">
+                        <a href="index.html">Home</a>
+                        <a href="shop.html" class="active">Shop</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                    <div class="header-actions">
+                        <button class="icon-btn search-btn">
+                            <span class="material-symbols-outlined">search</span>
+                        </button>
+                        <a href="cart.html" class="icon-btn cart-btn">
+                            <span class="material-symbols-outlined">shopping_cart</span>
+                            <span class="cart-badge">3</span>
+                        </a>
+                        <button class="menu-toggle" id="openMenu">
+                            <span class="material-symbols-outlined">menu_open</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <header class="page-header">
+                <div class="container text-center">
+                    <h1>Menu Bân Xiển</h1>
+                    <p class="mt-2">Khám phá thế giới xiên que đa dạng, hấp dẫn nhất Sài Gòn.</p>
+                </div>
+            </header>
+
+            <section class="container section-padding">
+                <div class="shop-controls flex-between">
+                    <div class="shop-filters">
+                        <button class="filter-btn active">All Items</button>
+                        <button class="filter-btn">Xiên Nướng</button>
+                        <button class="filter-btn">Đồ Chiên</button>
+                        <button class="filter-btn">Đồ Uống</button>
+                        <button class="filter-btn">Combos</button>
+                    </div>
+                    <div class="shop-sorting">
+                        <span>Sort by:</span>
+                        <select>
+                            <option>Newest Arrivals</option>
+                            <option>Price: Low to High</option>
+                            <option>Price: High to Low</option>
+                            <option>Best Sellers</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="products-grid">
+                    <!-- 1 -->
+                    <div class="product-card">
+                        <a href="product.html" class="product-image"
+                            style="background-image: url('assets/img/xienganuong.jpg');">
+                            <span class="product-badge">Hot</span>
+                        </a>
+                        <div class="product-info">
+                            <a href="product.html">
+                                <h3>Xiên Gà Nướng Mật Ong</h3>
+                            </a>
+                            <p>Thịt gà mềm ngọt phủ lớp mật ong óng ánh, nướng than hoa thơm lừng.</p>
+                            <div class="product-bottom">
+                                <span class="price">15,000đ</span>
+                                <button class="btn btn-outline add-to-cart">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="product-card">
+                        <div class="product-image" style="background-image: url('assets/img/xienheonguong.jpg');"></div>
+                        <div class="product-info">
+                            <h3>Xiên Heo Nướng Sa Tế</h3>
+                            <p>Thịt heo ba chỉ ướp sa tế cay nồng, đậm đà gia vị truyền thống Việt.</p>
+                            <div class="product-bottom">
+                                <span class="price">12,000đ</span>
+                                <button class="btn btn-outline add-to-cart">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="product-card">
+                        <div class="product-image" style="background-image: url('assets/img/cavienchien.jpg');"></div>
+                        <div class="product-info">
+                            <h3>Cá Viên Chiên Giòn</h3>
+                            <p>Cá viên dai ngon, chiên giòn rụm, ăn kèm tương ớt đặc sản nhà làm.</p>
+                            <div class="product-bottom">
+                                <span class="price">10,000đ</span>
+                                <button class="btn btn-outline add-to-cart">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="product-card">
+                        <div class="product-image" style="background-image: url('assets/img/banhgaolac.jpg');">
+                        </div>
+                        <div class="product-info">
+                            <h3>Bánh Gạo Lắc Phô Mai</h3>
+                            <p>Bánh gạo Hàn Quốc chiên dẻo, lắc đều với bột phô mai béo ngậy cực cuốn.</p>
+                            <div class="product-bottom">
+                                <span class="price">20,000đ</span>
+                                <button class="btn btn-outline add-to-cart">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="product-card">
+                        <div class="product-image" style="background-image: url('assets/img/bolalot.jpg');"></div>
+                        <div class="product-info">
+                            <h3>Bò Nướng Lá Lốt</h3>
+                            <p>Thịt bò băm ướp gia vị cuộn lá lốt nướng thơm nức mũi, đậm vị truyền thống.</p>
+                            <div class="product-bottom">
+                                <span class="price">18,000đ</span>
+                                <button class="btn btn-outline add-to-cart">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="product-card">
+                        <div class="product-image" style="background-image: url('assets/img/phomaique.jpg');"></div>
+                        <div class="product-info">
+                            <h3>Phô Mai Que Trân Châu</h3>
+                            <p>Lớp vỏ giòn tan bọc phô mai mozzarella kéo sợi béo ngậy cùng trân châu dai dai.</p>
+                            <div class="product-bottom">
+                                <span class="price">15,000đ</span>
+                                <button class="btn btn-outline add-to-cart">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 7 -->
+                    <div class="product-card">
+                        <div class="product-image" style="background-image: url('assets/img/bachtuocnguong.jpg');">
+                        </div>
+                        <div class="product-info">
+                            <h3>Bạch Tuộc Nướng Muối Ớt</h3>
+                            <p>Bạch tuộc tươi giòn, ướp muối ớt xanh nướng trên đá nóng thơm lừng.</p>
+                            <div class="product-bottom">
+                                <span class="price">25,000đ</span>
+                                <button class="btn btn-outline add-to-cart">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 8 -->
+                    <div class="product-card">
+                        <div class="product-image" style="background-image: url('assets/img/xucxichholo.jpg');">
+                        </div>
+                        <div class="product-info">
+                            <h3>Xúc Xích Hồ Lô</h3>
+                            <p>Xúc xích tạo hình hồ lô ngộ nghĩnh, nướng cháy cạnh hấp dẫn, béo bùi.</p>
+                            <div class="product-bottom">
+                                <span class="price">12,000đ</span>
+                                <button class="btn btn-outline add-to-cart">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 9 -->
+                    <div class="product-card">
+                        <div class="product-image" style="background-image: url('assets/img/nemchuaran.jpg');"></div>
+                        <div class="product-info">
+                            <h3>Nem Chua Rán</h3>
+                            <p>Nem chua rán giòng rụm bên ngoài, mềm dai bên trong, đặc sản Hà Nội.</p>
+                            <div class="product-bottom">
+                                <span class="price">15,000đ</span>
+                                <button class="btn btn-outline add-to-cart">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 10 -->
+                    <div class="product-card">
+                        <div class="product-image" style="background-image: url('assets/img/changasot.jpg');"></div>
+                        <div class="product-info">
+                            <h3>Chân Gà Sốt Thái</h3>
+                            <p>Chân gà rút xương giòn sần sật, thấm đẫm sốt Thái chua cay mặn ngọt.</p>
+                            <div class="product-bottom">
+                                <span class="price">25,000đ</span>
+                                <button class="btn btn-outline add-to-cart">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 11 -->
+                    <div class="product-card">
+                        <div class="product-image" style="background-image: url('assets/img/tom-hum-vien-EB-4.jpg');">
+                        </div>
+                        <div class="product-info">
+                            <h3>Tôm Viên EB</h3>
+                            <p>Viên tôm EB cao cấp, dai ngon bừng vị hải sản tươi mới.</p>
+                            <div class="product-bottom">
+                                <span class="price">22,000đ</span>
+                                <button class="btn btn-outline add-to-cart">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 12 -->
+                    <div class="product-card">
+                        <div class="product-image"
+                            style="background-image: url('assets/img/cong-thuc-pha-tra-chanh-gia-tay.jpg');"></div>
+                        <div class="product-info">
+                            <h3>Trà Chanh Giã Tay</h3>
+                            <p>Trà chanh tươi mát, thơm nồng tinh dầu chanh giã tay, giải nhiệt cực tốt.</p>
+                            <div class="product-bottom">
+                                <span class="price">15,000đ</span>
+                                <button class="btn btn-outline add-to-cart">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pagination text-center mt-2">
+                    <a href="#" class="page-link active">1</a>
+                    <a href="#" class="page-link">2</a>
+                    <a href="#" class="page-link">3</a>
+                    <a href="#" class="page-link"><span class="material-symbols-outlined">chevron_right</span></a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <span class="material-symbols-outlined icon-large">kebab_dining</span>
+                        <h2>Bân Xiển</h2>
+                    </div>
+                    <p class="mt-2">Hương vị đường phố đích thực, mang đến những trải nghiệm ẩm thực tuyệt vời nhất ngay
+                        tại nhà bạn.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="shop.html">Browse Menu</a>
+                        <a href="blog.html">Latest News</a>
+                        <a href="about.html">Our Story</a>
+                        <a href="contact.html">Contact Us</a>
+                        <a href="cart.html">View Cart</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect With Us</h3>
+                    <p class="mb-2">123 Đường Ẩm Thực, Quận 1, TP.HCM</p>
+                    <p class="mb-2">Phone: 0123 456 789</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><span class="material-symbols-outlined">thumb_up</span></a>
+                        <a href="#" class="social-icon"><span class="material-symbols-outlined">photo_camera</span></a>
+                        <a href="#" class="social-icon"><span class="material-symbols-outlined">play_arrow</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <p>© 2026 Bân Xiển. Crafted with ❤️ for Street Food Lovers.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Giỏ Hàng | Bân Xiển - Sẵn Sàng Thưởng Thức</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <!-- Styles -->
+    
+    <link rel="stylesheet" href="style.css"/>
+    
+</head>
+<body>
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="menuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="close-menu" id="closeMenu">
+            <span class="material-symbols-outlined">close</span>
+        </button>
+        <div class="mobile-nav-links">
+            <a href="index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="blog.html">Blog</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div class="app-wrapper">
+        <header class="header">
+            <div class="header-container">
+                <a href="index.html" class="logo">
+                    <span class="material-symbols-outlined icon-large">kebab_dining</span>
+                    <h2>Bân Xiển</h2>
+                </a>
+                <div class="header-right">
+                    <nav class="navbar">
+                        <a href="index.html">Home</a>
+                        <a href="shop.html">Shop</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                    <div class="header-actions">
+                        <a href="cart.html" class="icon-btn cart-btn">
+                            <span class="material-symbols-outlined">shopping_cart</span>
+                            <span class="cart-badge">3</span>
+                        </a>
+                        <button class="menu-toggle" id="openMenu">
+                            <span class="material-symbols-outlined">menu_open</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <header class="page-header">
+                <div class="container text-center">
+                    <h1>Giỏ Hàng Của Bạn</h1>
+                    <p class="mt-2">Kiểm tra lại những món xiên que thơm ngon bạn đã chọn.</p>
+                </div>
+            </header>
+
+            <section class="container section-padding">
+                <div class="cart-flex">
+                    <div class="cart-items">
+<table class="cart-table">
+                            <thead>
+                                <tr>
+                                    <th>Sản Phẩm</th>
+                                    <th>Số Lượng</th>
+                                    <th>Giá</th>
+                                    <th>Tổng</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                        <div class="cart-actions mt-2">
+                            <a href="shop.html" class="btn btn-outline"><span class="material-symbols-outlined">arrow_back</span> Continue Shopping</a>
+                            <button class="btn btn-outline"><span class="material-symbols-outlined">refresh</span> Update Cart</button>
+                        </div>
+                    </div>
+
+                    <div class="cart-summary">
+                        <h2>Tạm Tính</h2>
+<div class="summary-row">
+                            <span>Subtotal:</span>
+                            <span>57,000đ</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Shipping Cost:</span>
+                            <span>15,000đ</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Combo Discount:</span>
+                            <span>- 5,000đ</span>
+                        </div>
+                        <div class="summary-row summary-total">
+                            <span>Total:</span>
+                            <span>67,000đ</span>
+                        </div>
+                        <button class="btn btn-primary btn-large mt-2">Thanh Toán Ngay</button>
+                        <div class="payment-methods mt-2">
+                            <span class="material-symbols-outlined">payments</span>
+                            <span class="material-symbols-outlined">credit_card</span>
+                            <span class="material-symbols-outlined">account_balance_wallet</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container footer-grid">
+                <div class="footer-col">
+                    <div class="logo">
+                        <span class="material-symbols-outlined icon-large">kebab_dining</span>
+                        <h2>Bân Xiển</h2>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
