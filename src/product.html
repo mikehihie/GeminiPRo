@@ -12,7 +12,7 @@
         rel="stylesheet" />
     <!-- Styles -->
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
 
 </head>
 
@@ -24,7 +24,7 @@
             <span class="material-symbols-outlined">close</span>
         </button>
         <div class="mobile-nav-links">
-            <a href="index.html">Home</a>
+            <a href="../index.html">Home</a>
             <a href="shop.html" class="active">Shop</a>
             <a href="blog.html">Blog</a>
             <a href="about.html">About</a>
@@ -35,13 +35,13 @@
     <div class="app-wrapper">
         <header class="header">
             <div class="header-container">
-                <a href="index.html" class="logo">
+                <a href="../index.html" class="logo">
                     <span class="material-symbols-outlined icon-large">kebab_dining</span>
                     <h2>Bân Xiển</h2>
                 </a>
                 <div class="header-right">
                     <nav class="navbar">
-                        <a href="index.html">Home</a>
+                        <a href="../index.html">Home</a>
                         <a href="shop.html" class="active">Shop</a>
                         <a href="blog.html">Blog</a>
                         <a href="about.html">About</a>
@@ -66,15 +66,16 @@
         <main class="main-content">
             <section class="container section-padding">
                 <div class="breadcrumb">
-                    <a href="index.html">Home</a> / <a href="shop.html">Shop</a> / <span>Xiên Gà Nướng Mật Ong</span>
+                    <a href="../index.html">Home</a> / <a href="./shop.html">Shop</a> / <span>Xiên Gà Nướng Mật
+                        Ong</span>
                 </div>
                 <div class="product-detail-flex">
                     <div class="product-gallery">
                         <div class="main-image"></div>
                         <div class="thumbnail-list">
-                            <div class="thumb" style="background-image: url('assets/img/banhgaolac.jpg');"></div>
-                            <div class="thumb" style="background-image: url('assets/img/bolalot.jpg');"></div>
-                            <div class="thumb" style="background-image: url('assets/img/cavienchien.jpg');"></div>
+                            <div class="thumb" style="background-image: url('../assets/img/banhgaolac.jpg');"></div>
+                            <div class="thumb" style="background-image: url('../assets/img/bolalot.jpg');"></div>
+                            <div class="thumb" style="background-image: url('../assets/img/cavienchien.jpg');"></div>
                         </div>
                     </div>
                     <div class="product-content">
@@ -98,15 +99,15 @@
                         <div class="qty-selector">
                             <span>Quantity:</span>
                             <div class="qty-input">
-                                <button>-</button>
-                                <input type="number" value="1" min="1">
-                                <button>+</button>
+                                <button class="detail-qty-dec">-</button>
+                                <input type="number" id="detailQty" value="1" min="1">
+                                <button class="detail-qty-inc">+</button>
                             </div>
                         </div>
 
                         <div class="action-btns">
-                            <button class="btn btn-primary btn-large add-to-cart">Add to Cart</button>
-                            <button class="icon-btn btn-large">
+                            <button id="detailAddToCart" class="btn btn-primary btn-large">Add to Cart</button>
+                            <button id="detailFavBtn" class="icon-btn btn-large">
                                 <span class="material-symbols-outlined">favorite</span>
                             </button>
                         </div>
@@ -126,7 +127,8 @@
                     <div class="products-grid">
                         <!-- Related 1 -->
                         <div class="product-card">
-                            <div class="product-image" style="background-image: url('assets/img/xienheonguong.jpg');">
+                            <div class="product-image"
+                                style="background-image: url('../assets/img/xienheonguong.jpg');">
                             </div>
                             <div class="product-info">
                                 <h3>Xiên Heo Nướng Sa Tế</h3>
@@ -138,7 +140,8 @@
                         </div>
                         <!-- Related 2 -->
                         <div class="product-card">
-                            <div class="product-image" style="background-image: url('assets/img/bolalot.jpg');"></div>
+                            <div class="product-image" style="background-image: url('../assets/img/bolalot.jpg');">
+                            </div>
                             <div class="product-info">
                                 <h3>Bò Nướng Lá Lốt</h3>
                                 <div class="product-bottom">
@@ -165,11 +168,11 @@
                 <div class="footer-col">
                     <h3>Quick Links</h3>
                     <div class="footer-links">
-                        <a href="shop.html">Browse Menu</a>
-                        <a href="blog.html">Latest News</a>
-                        <a href="about.html">Our Story</a>
-                        <a href="contact.html">Contact Us</a>
-                        <a href="cart.html">View Cart</a>
+                        <a href="./shop.html">Browse Menu</a>
+                        <a href="./blog.html">Latest News</a>
+                        <a href="./about.html">Our Story</a>
+                        <a href="./contact.html">Contact Us</a>
+                        <a href="./cart.html">View Cart</a>
                     </div>
                 </div>
                 <div class="footer-col">
@@ -186,7 +189,7 @@
         </footer>
     </div>
 
-    <script src="script.js"></script>
+    <script src="../script/script.js"></script>
 </body>
 
 </html>

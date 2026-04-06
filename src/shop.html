@@ -12,7 +12,7 @@
         rel="stylesheet" />
     <!-- Styles -->
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
 
 </head>
 
@@ -24,7 +24,7 @@
             <span class="material-symbols-outlined">close</span>
         </button>
         <div class="mobile-nav-links">
-            <a href="index.html">Home</a>
+            <a href="../index.html">Home</a>
             <a href="shop.html" class="active">Shop</a>
             <a href="blog.html">Blog</a>
             <a href="about.html">About</a>
@@ -35,13 +35,13 @@
     <div class="app-wrapper">
         <header class="header">
             <div class="header-container">
-                <a href="index.html" class="logo">
+                <a href="../index.html" class="logo">
                     <span class="material-symbols-outlined icon-large">kebab_dining</span>
                     <h2>Bân Xiển</h2>
                 </a>
                 <div class="header-right">
                     <nav class="navbar">
-                        <a href="index.html">Home</a>
+                        <a href="../index.html">Home</a>
                         <a href="shop.html" class="active">Shop</a>
                         <a href="blog.html">Blog</a>
                         <a href="about.html">About</a>
@@ -82,11 +82,11 @@
                     </div>
                     <div class="shop-sorting">
                         <span>Sort by:</span>
-                        <select>
-                            <option>Newest Arrivals</option>
-                            <option>Price: Low to High</option>
-                            <option>Price: High to Low</option>
-                            <option>Best Sellers</option>
+                        <select id="productSort">
+                            <option value="newest">Newest Arrivals</option>
+                            <option value="price-asc">Price: Low to High</option>
+                            <option value="price-desc">Price: High to Low</option>
+                            <option value="best-sellers">Best Sellers</option>
                         </select>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                     <!-- 1 -->
                     <div class="product-card">
                         <a href="product.html" class="product-image"
-                            style="background-image: url('assets/img/xienganuong.jpg');">
+                            style="background-image: url('../assets/img/xienganuong.jpg');">
                             <span class="product-badge">Hot</span>
                         </a>
                         <div class="product-info">
@@ -111,7 +111,7 @@
                     </div>
                     <!-- 2 -->
                     <div class="product-card">
-                        <div class="product-image" style="background-image: url('assets/img/xienheonguong.jpg');"></div>
+                        <div class="product-image" style="background-image: url('../assets/img/xienheonguong.jpg');"></div>
                         <div class="product-info">
                             <h3>Xiên Heo Nướng Sa Tế</h3>
                             <p>Thịt heo ba chỉ ướp sa tế cay nồng, đậm đà gia vị truyền thống Việt.</p>
@@ -123,7 +123,7 @@
                     </div>
                     <!-- 3 -->
                     <div class="product-card">
-                        <div class="product-image" style="background-image: url('assets/img/cavienchien.jpg');"></div>
+                        <div class="product-image" style="background-image: url('../assets/img/cavienchien.jpg');"></div>
                         <div class="product-info">
                             <h3>Cá Viên Chiên Giòn</h3>
                             <p>Cá viên dai ngon, chiên giòn rụm, ăn kèm tương ớt đặc sản nhà làm.</p>
@@ -135,7 +135,7 @@
                     </div>
                     <!-- 4 -->
                     <div class="product-card">
-                        <div class="product-image" style="background-image: url('assets/img/banhgaolac.jpg');">
+                        <div class="product-image" style="background-image: url('../assets/img/banhgaolac.jpg');">
                         </div>
                         <div class="product-info">
                             <h3>Bánh Gạo Lắc Phô Mai</h3>
@@ -148,7 +148,7 @@
                     </div>
                     <!-- 5 -->
                     <div class="product-card">
-                        <div class="product-image" style="background-image: url('assets/img/bolalot.jpg');"></div>
+                        <div class="product-image" style="background-image: url('../assets/img/bolalot.jpg');"></div>
                         <div class="product-info">
                             <h3>Bò Nướng Lá Lốt</h3>
                             <p>Thịt bò băm ướp gia vị cuộn lá lốt nướng thơm nức mũi, đậm vị truyền thống.</p>
@@ -160,7 +160,7 @@
                     </div>
                     <!-- 6 -->
                     <div class="product-card">
-                        <div class="product-image" style="background-image: url('assets/img/phomaique.jpg');"></div>
+                        <div class="product-image" style="background-image: url('../assets/img/phomaique.jpg');"></div>
                         <div class="product-info">
                             <h3>Phô Mai Que Trân Châu</h3>
                             <p>Lớp vỏ giòn tan bọc phô mai mozzarella kéo sợi béo ngậy cùng trân châu dai dai.</p>
@@ -172,7 +172,7 @@
                     </div>
                     <!-- 7 -->
                     <div class="product-card">
-                        <div class="product-image" style="background-image: url('assets/img/bachtuocnguong.jpg');">
+                        <div class="product-image" style="background-image: url('../assets/img/bachtuocnguong.jpg');">
                         </div>
                         <div class="product-info">
                             <h3>Bạch Tuộc Nướng Muối Ớt</h3>
@@ -185,7 +185,7 @@
                     </div>
                     <!-- 8 -->
                     <div class="product-card">
-                        <div class="product-image" style="background-image: url('assets/img/xucxichholo.jpg');">
+                        <div class="product-image" style="background-image: url('../assets/img/xucxichholo.jpg');">
                         </div>
                         <div class="product-info">
                             <h3>Xúc Xích Hồ Lô</h3>
@@ -198,7 +198,7 @@
                     </div>
                     <!-- 9 -->
                     <div class="product-card">
-                        <div class="product-image" style="background-image: url('assets/img/nemchuaran.jpg');"></div>
+                        <div class="product-image" style="background-image: url('../assets/img/nemchuaran.jpg');"></div>
                         <div class="product-info">
                             <h3>Nem Chua Rán</h3>
                             <p>Nem chua rán giòng rụm bên ngoài, mềm dai bên trong, đặc sản Hà Nội.</p>
@@ -210,7 +210,7 @@
                     </div>
                     <!-- 10 -->
                     <div class="product-card">
-                        <div class="product-image" style="background-image: url('assets/img/changasot.jpg');"></div>
+                        <div class="product-image" style="background-image: url('../assets/img/changasot.jpg');"></div>
                         <div class="product-info">
                             <h3>Chân Gà Sốt Thái</h3>
                             <p>Chân gà rút xương giòn sần sật, thấm đẫm sốt Thái chua cay mặn ngọt.</p>
@@ -222,7 +222,7 @@
                     </div>
                     <!-- 11 -->
                     <div class="product-card">
-                        <div class="product-image" style="background-image: url('assets/img/tom-hum-vien-EB-4.jpg');">
+                        <div class="product-image" style="background-image: url('../assets/img/tom-hum-vien-EB-4.jpg');">
                         </div>
                         <div class="product-info">
                             <h3>Tôm Viên EB</h3>
@@ -236,7 +236,7 @@
                     <!-- 12 -->
                     <div class="product-card">
                         <div class="product-image"
-                            style="background-image: url('assets/img/cong-thuc-pha-tra-chanh-gia-tay.jpg');"></div>
+                            style="background-image: url('../assets/img/cong-thuc-pha-tra-chanh-gia-tay.jpg');"></div>
                         <div class="product-info">
                             <h3>Trà Chanh Giã Tay</h3>
                             <p>Trà chanh tươi mát, thơm nồng tinh dầu chanh giã tay, giải nhiệt cực tốt.</p>
@@ -294,7 +294,7 @@
         </footer>
     </div>
 
-    <script src="script.js"></script>
+    <script src="../script/script.js"></script>
 </body>
 
 </html>
